@@ -1,0 +1,59 @@
+body {
+    margin: 40px auto;
+    max-width: 700px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    text-rendering: optimizeLegibility; /* Enables kerning and ligatures etc. */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+code,
+kbd,
+samp,
+pre {
+    font-family:
+        ui-monospace,
+        SFMono-Regular,
+        Consolas,
+        'Liberation Mono',
+        Menlo,
+        monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+ul { list-style-type: '';
+	 margin: 0;
+	 padding: 0;
+   }
+li { margin: 0;
+	 padding: 0;
+	 font-size: .9em;
+   }
+img,
+embed,
+object,
+audio,
+video {
+    max-width: 100%; }
+
+summary {
+    font-size: .8em;
+	padding-bottom: 1em;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   margin: 40px auto;
+   max-width: 700px;
+   height:60px;   /* Height of the footer */
+}
+
