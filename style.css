@@ -11,12 +11,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a { font-size: 2em; color: #000; text-decoration: none; }
+/* simple row/column in html */
+.column { float: left; width: 50%; }
+.row { width: 100%; padding-left: 2em;
+   margin-left: 2em; max-width: 700px;
+   margin-bottom: 4em;
+ }
+.row:after { content:""; display: table; clear: both; }
+
+a { font-size: 1.5em; color: #444; text-decoration: none; }
 
 h1,
 h2,
 h3 {
-    line-height: 1.2;
+    line-height: 2;
 }
 code,
 kbd,
