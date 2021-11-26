@@ -11,6 +11,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a { font-size: 2em; color: #000; text-decoration: none; }
+
 h1,
 h2,
 h3 {
