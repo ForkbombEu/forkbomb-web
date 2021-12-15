@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { CorporateContactJsonLd } from 'next-seo';
+
 
 export default function Home() {
     const logo_ratio = 0.055
@@ -22,6 +24,19 @@ export default function Home() {
                     <a href="https://dyne.org/software/tomb">TOMB</a>
                 </div>
                 <div className="flex flex-col p-10 border border-8 border-t-0 lg:border-t-8 lg:border-l-0 border-amber-100 ">
+                    <CorporateContactJsonLd
+                        url="https://forkbomb.eu"
+                        logo="https://forkbomb.eu/forkbomb_logo.svg"
+                        contactPoint={[
+                            {
+                                telephone: '+31 (0)6-2645-5733',
+                                email: 'info@forkbomb.eu',
+                                contactType: 'Main contact',
+                                availableLanguage: ['English', 'Spanish', 'Italian', 'French', 'Dutch', 'German'],
+                                contactOption: 'TollFree',
+                            },
+                        ]}
+                    />
                     <span className="font-semibold text-white">FORKBOMB B.V.</span>
                     <br />
                     <span className="text-white">Haparandadam 7-A1 <br /> 1013AK Amsterdam</span>
