@@ -23,7 +23,7 @@ export default function Home() {
                     <a href="https://dyne.org/software/tomb">TOMB</a>
                 </div>
                 <div className="flex flex-col p-10 border border-8 border-t-0 lg:border-t-8 lg:border-l-0 border-amber-100 ">
-                    <span className="font-semibold text-white">FORKBOMB BV</span>
+                    <span className="font-semibold text-white">FORKBOMB B.V.</span>
                     <br />
                     <span className="text-white">Haparandadam 7-A1 <br /> 1013AK Amsterdam</span>
                     <span className="text-white">+31 (0)6-2645-5733</span>
