@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Home() {
     const logo_ratio = 0.055
@@ -11,7 +10,7 @@ export default function Home() {
                     and blockchain <br />
                     trusted by hackers.
                 </p>
-                <Image src="/forkbomb_logo.svg" alt="logo" width={4064 * logo_ratio} height={2554 * logo_ratio} />
+                <img src="/forkbomb_logo.svg" alt="logo" width={4064 * logo_ratio} height={2554 * logo_ratio} />
             </div>
             <div className="grid lg:grid-cols-2">
                 <div className="flex flex-col p-10 font-medium border bg-amber-100 border-blue border-x-8 lg:border-x-0 lg:border-y-8 text-blue ">
