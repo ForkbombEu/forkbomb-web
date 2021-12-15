@@ -1,6 +1,6 @@
 export default {
   title: "💣 Forkbomb Company",
-  description: "Forkbomb is a company and at the same time is estetichally pleasant and an artistic way for a DoS attack wherein a process continually replicates itself to deplete available system resources. The aim of the company is to develop crypto and blockchain trusted by hackers.",
+  description: "Forkbomb is a company and at the same time is esthetically pleasant and an artistic way for a DoS attack wherein a process continually replicates itself to deplete available system resources. The aim of the company is to develop crypto and blockchain trusted by hackers.",
   canonical: "https://forkbomb.eu",
   openGraph: {
     title: "💣 Forkbomb Company",
