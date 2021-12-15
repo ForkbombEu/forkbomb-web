@@ -1,3 +1,9 @@
 @tailwind base;
+@layer base {
+  a {
+     @apply underline;
+     text-decoration-color: pink;
+  }
+}
 @tailwind components;
 @tailwind utilities;
